@@ -1,0 +1,67 @@
+Objective:
+Build two simple registration pages (Farmer & Exporter) that collect user data in Google Sheets and automatically send a WhatsApp confirmation/message after submission.
+
+⸻
+
+1. Farmer Registration Page
+
+Headline: “Join as a Farmer – Connect with Global Buyers”
+
+Form Fields:
+	•	Full Name
+	•	Farm/Company Name
+	•	Location (State / District / Village)
+	•	Crop Type (Dropdown / Multi-select)
+	•	Quantity Available
+	•	Harvest Month / Year
+	•	Contact Number (WhatsApp preferred)
+	•	Email (optional)
+	•	Upload Photos (Optional: farm or crop images)
+	•	Upload Certifications (Optional)
+
+Functionality:
+	•	On submit, store all form data in Google Sheets automatically.
+	•	Send WhatsApp message to the farmer confirming registration:
+“Thank you [Name]! Your registration as a farmer is successful. We will connect you with exporters soon.”
+	•	Optional: Send admin notification to your WhatsApp for new registrations.
+
+⸻
+
+2. Exporter Registration Page
+
+Headline: “Join as an Exporter – Find Reliable Suppliers”
+
+Form Fields:
+	•	Full Name
+	•	Company Name
+	•	Location / Country
+	•	Products You Buy (Dropdown / Multi-select)
+	•	Required Quantity
+	•	Contact Number (WhatsApp preferred)
+	•	Email
+	•	Upload documents (Optional)
+
+Functionality:
+	•	On submit, store all form data in Google Sheets automatically.
+	•	Send WhatsApp message to the exporter confirming registration:
+“Thank you [Name]! Your registration as an exporter is successful. You can now connect with verified farmers.”
+	•	Optional: Send admin WhatsApp notification for new registrations.
+
+⸻
+
+Design & UX Notes
+	•	Simple layout: Big buttons, readable fonts, green (farmers) / blue (exporters) accents.
+	•	Mobile-first design: Most farmers will use phones.
+	•	Clear CTA buttons: “Submit Registration”
+	•	Optional progress indicator for multi-step forms
+
+⸻
+
+Technical Implementation Suggestions
+	•	Form → Google Sheets: Use Google Forms API, SheetDB, or AppScript to directly push data.
+	•	WhatsApp Notification:
+	•	Use WhatsApp Business API or services like Twilio WhatsApp API / 360dialog.
+	•	Trigger message automatically when form is submitted.
+	•	No backend needed at this stage — just forms + Google Sheets + WhatsApp integration.
+
+⸻
