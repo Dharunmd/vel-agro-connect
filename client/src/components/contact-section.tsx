@@ -64,7 +64,7 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+91 98765 43210", "+91 87654 32109"]
+      details: ["+91 8056670348", "+91 87654 32109"]
     },
     {
       icon: MapPin,

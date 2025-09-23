@@ -98,7 +98,7 @@ export default function Footer() {
         
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-white/60" data-testid="footer-copyright">
-            © 2024 Vel AgroConnect. All rights reserved. | Connecting agriculture with global opportunities.
+            © 2025 Vel AgroConnect. All rights reserved. | Connecting agriculture with global opportunities.
           </p>
         </div>
       </div>
