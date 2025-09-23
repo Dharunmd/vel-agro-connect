@@ -1,0 +1,61 @@
+Goal:
+Build a modern, scroll-friendly, and mobile-first website that connects farmers with exporters, keeps users engaged as they scroll, and makes navigation super simple.
+
+⸻
+
+Core Requirements:
+	1.	Hero Section (Top Section)
+	•	Full-width background video or image of a farm.
+	•	Large headline: “Connecting Farmers With Global Buyers”
+	•	Subtext: Short tagline about fair prices and easy exports.
+	•	Two clear buttons:
+	•	✅ “I Am a Farmer” → Farmer Registration Page
+	•	🌍 “I Am an Exporter” → Exporter Registration Page
+	•	Smooth scroll arrow pointing downwards.
+	2.	How It Works Section
+	•	Three-step process with large icons + animations:
+	1.	Register
+	2.	List Crops / Search Crops
+	3.	Connect & Trade
+	•	Each step should slide/fade in as the user scrolls.
+	3.	Live Listings Section (Interactive)
+	•	Grid or card layout showing available crops (Image + Name + Quantity + Location).
+	•	Filters (Vegetables / Fruits / Grains).
+	•	“Contact Farmer” button on each card.
+	4.	Trust & Impact Section
+	•	Animated counters (e.g., “120+ Farmers Connected”, “50+ Deals Done”).
+	•	Logos of any partners or sample placeholders.
+	5.	Educational Tips Carousel
+	•	Horizontal scroll or slider with quick tips:
+	•	“How to Get Best Price for Your Crops”
+	•	“Export Documentation Checklist”
+	•	“Maintaining Quality Standards”
+	6.	Final Call-to-Action Section
+	•	Strong headline: “Join Our Network – Start Growing Your Business Today!”
+	•	Buttons repeated: Farmer Signup / Exporter Signup.
+	7.	Contact Section
+	•	Simple contact form + WhatsApp link + email.
+
+⸻
+
+Design & User Experience:
+	•	Colors: Green (#4CAF50), White, Yellow highlights.
+	•	Typography: Large, clean fonts; friendly and easy to read.
+	•	Animations: Smooth scroll effects, fade-in sections, hover effects on cards.
+	•	Mobile-First: Must look perfect on smartphones.
+	•	Multilingual Toggle: Button for switching to local language.
+	•	Simple Navigation: Sticky top menu (Home | Crops | Farmers | Exporters | Contact).
+
+⸻
+
+Tech Stack (Recommended):
+	•	Frontend: React + Tailwind CSS (for modern design).
+	•	Animations: Framer Motion or GSAP for smooth scroll effects.
+	•	Backend (Optional at MVP): Firebase or simple Google Sheets integration to collect forms.
+	•	Notifications: WhatsApp/SMS confirmation for registrations.
+
+⸻
+
+Key Outcome:
+	•	Clean, modern, and easy-to-use platform that keeps users scrolling, makes information clear, and guides them to take action (register or connect).
+	•	Must feel trustworthy and professional but simple enough for a first-time user.
