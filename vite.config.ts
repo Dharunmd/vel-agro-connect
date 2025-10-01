@@ -12,21 +12,8 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "client/src"),
       "@assets": path.resolve(__dirname, "client/src/assets"),
-      "@shared": path.resolve(__dirname, "shared"), // 👈 add this
+      "@shared": path.resolve(__dirname, "shared"),
     },
-  },
-  optimizeDeps: {
-    include: [
-      "react-hook-form",
-      "@hookform/resolvers/zod",
-      "@tanstack/react-query",
-      "@radix-ui/react-tooltip",
-      "@radix-ui/react-toast",
-      "@radix-ui/react-popover",
-      "clsx",
-      "framer-motion",
-      "class-variance-authority",
-    ],
   },
   build: {
     outDir: path.resolve(__dirname, "dist"),

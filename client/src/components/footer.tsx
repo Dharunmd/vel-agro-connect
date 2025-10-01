@@ -1,4 +1,4 @@
-import { Sprout, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Sprout, Facebook, Twitter, Instagram, Linkedin, Heart } from "lucide-react";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -99,6 +99,18 @@ export default function Footer() {
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-white/60" data-testid="footer-copyright">
             © 2025 Vel AgroConnect. All rights reserved. | Connecting agriculture with global opportunities.
+          </p>
+          <p className="text-muted-foreground text-sm mt-2" data-testid="text-footer-credit">
+            Developed & Designed with <Heart className="inline w-4 h-4 text-red-500 mx-1" /> by{" "}
+            <a 
+              href="https://github.com/dharunmd" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 transition-colors"
+              data-testid="link-footer-author"
+            >
+              Dharun M
+            </a>
           </p>
         </div>
       </div>
