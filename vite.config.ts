@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// properly resolve __dirname in ESM
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
@@ -13,6 +12,7 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "client/src"),
       "@assets": path.resolve(__dirname, "client/src/assets"),
+      "@shared": path.resolve(__dirname, "shared"), // 👈 add this
     },
   },
   optimizeDeps: {
